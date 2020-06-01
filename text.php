@@ -8,8 +8,6 @@ $mas_text=explode(" ", $text_bzp);
 
 $kol_sl=count($mas_text);
 
-
 print_r(array_count_values($mas_text));
-
 
 echo 'Количество слов = '."$kol_sl";
